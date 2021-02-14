@@ -1,4 +1,4 @@
-# Telegram Voice-Chat Bot
+# Telegram vctgmusic Bot
 
 Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
 
@@ -27,9 +27,9 @@ Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
 
 ## Run
 
-1. `git clone https://github.com/thehamkercat/Telegram_VC_Bot`, to download the source code.
-2. `cd Telegram_VC_Bot`, to enter the directory.
-3. `pip3 install -r requirements.txt`, to install the requirements.
+1. `git clone https://github.com/md5hash16/vctgmusicbot`, to download the source code.
+2. `cd vctgmusicbot`, to enter the directory.
+3. `pip install -r requirements.txt`, to install the requirements.
 4. `cp sample_config.py config.py`
 5. Edit `config.py` with your own values.
 6. If you are on linux follow [this](https://github.com/thehamkercat/Telegram_VC_Bot/blob/master/vnc.md) 
@@ -44,7 +44,7 @@ your PC or Server's audio output to audio input. [For Linux]
 [This](https://superuser.com/questions/1133750/set-output-audio-of-windows-as-input-audio-of-microphone) or install Virtual Audio Cable instead.
 9. Run the bot `python3 main.py`
 10. Open Telegram and start voice chat.
-11. Send [commads](https://github.com/thehamkercat/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
+11. Send [commads](https://github.com/md5hash16/vctgmusicbot/blob/master/README.md#commands) to bot to 
 play music.
 
 > Watch The Video Tutorial if you still can't do this 
