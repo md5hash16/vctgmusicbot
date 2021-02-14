@@ -51,8 +51,8 @@ is_playing = False  # for restricting users while playing!
 @app.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message: Message):
     await message.reply_text(
-        "[Github](https://github.com/thehamkercat/Telegram_vc_bot)"
-        + " | [Group](t.me/TheHamkerChat)",
+        "[Github](https://github.com/md5hash16/vctgmusicbot)"
+        + " | [Group](t.me/md5hash16)",
         disable_web_page_preview=True,
     )
 
@@ -692,6 +692,6 @@ async def users(client, message: Message):
 
 
 print(
-    "\nBot Starting...\nFor Support Join https://t.me/PatheticProgrammers\n"
+    "\nBot Starting...\nFor Support Join https://t.me/md5hash16\n"
 )
 app.run()
